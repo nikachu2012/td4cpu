@@ -1,0 +1,29 @@
+﻿リファレンス番号,部品種類,販売ページ,メモ,必要個数,参考単価,価格
+BZ1,Beep Buzzer,https://akizukidenshi.com/catalog/g/g109800/,12mmの電子ブザー(圧電スピーカーではなく、発振回路を内蔵しているやつ）,1,70,70
+"C1,C6",10μF 16V,https://akizukidenshi.com/catalog/g/g110590/,,2,10,20
+C2,100μF 16V,https://akizukidenshi.com/catalog/g/g102724/,大元の一番でかいコンデンサ,1,15,15
+"C3,C5,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17",0.1μF,https://akizukidenshi.com/catalog/g/g113582/,10個入り,13,100,100
+C4,10μF 16V MLCC,https://akizukidenshi.com/catalog/g/g102184/,10個入り,1,200,200
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17",LED,https://akizukidenshi.com/catalog/g/g111577/,3mmのやつ　筆者は秋葉原マルツの処分セールでめっちゃ安いやつにした,17,,100
+J1,Jack-DC,https://akizukidenshi.com/catalog/g/g109408/,内径2.1 外径5.5のやつ,1,30,1
+"J2,J3,J4","Logic, Address, Data",https://akizukidenshi.com/catalog/g/g100167/,ピンヘッダ全部で14ピン分,3,35,35
+"R1,R3,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R28,R29,R30,R31,R32",1k,https://akizukidenshi.com/catalog/g/g125102/,100個入り 普通の抵抗,24,100,100
+R2,10k,https://akizukidenshi.com/catalog/g/g125103/,100個入り 普通の抵抗,1,100,100
+R4,3.3k,https://akizukidenshi.com/catalog/g/g125332/,100個入り 普通の抵抗,1,140,140
+"R5,R7,R27,R33",100k,https://akizukidenshi.com/catalog/g/g125104/,100個入り 普通の抵抗,4,130,130
+R6,33k,https://akizukidenshi.com/catalog/g/g125333/,100個入り 普通の抵抗,1,150,150
+"R8,R9",100,https://akizukidenshi.com/catalog/g/g125101/,100個入り 普通の抵抗,2,140,140
+"SW1,SW2,SW3",SW_SPDT,https://akizukidenshi.com/catalog/g/g115707/,1回路2接点スライドスイッチ (クロック種別、周波数、ビープ音切り替え),3,20,60
+SW4,DIP,https://akizukidenshi.com/catalog/g/g100586/,4P DIPスイッチ (Cレジスタ入力用),1,80,80
+"SW5, SW6","RESET, Manual CLK",https://akizukidenshi.com/catalog/g/g109826/,12mm角のタクトスイッチ (リセット、マニュアルクロック用),2,30,60
+U1,74HC04,https://akizukidenshi.com/catalog/g/g114058/,インバータ DIP14P (ビープ音の電流を稼ぐため),1,30,30
+"U2,U3,U4,U5",74HC161,https://www.kashinoki.shop/?pid=122479142,4bitカウンタ/レジスタ DIP16P (レジスタ、プログラムカウンタ),4,99,396
+U6,74HC10,https://www.kashinoki.shop/?pid=122479082,3入力3回路NAND DIP14P,1,55,55
+U7,74HC14,https://akizukidenshi.com/catalog/g/g110923/,シュミットトリガインバータ DIP14P,1,40,40
+U8,74HC32,https://www.kashinoki.shop/?pid=122479093,4回路OR DIP14P,1,28,28
+U9,74HC74,https://akizukidenshi.com/catalog/g/g110879/,2回路Dフリップフロップ DIP14P (Carry Flag),1,25,25
+"U10,U12",74HC153,https://www.kashinoki.shop/?pid=122479134,4chマルチプレクサ DIP16P,2,59,118
+U11,74HC283,https://www.kashinoki.shop/?pid=122479187,4bit全加算器 DIP16P (ALU),1,187,187
+,,https://akizukidenshi.com/catalog/g/g100029/,ICソケット 16P,7,40,280
+,,https://akizukidenshi.com/catalog/g/g100028/,ICソケット 14P,5,30,150
+,,https://akizukidenshi.com/catalog/g/g111996/,スイッチングACアダプタ 5V2A (内径2.1 外径5.5 センタープラス),1,770,770
