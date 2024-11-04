@@ -1,0 +1,58 @@
+% 各種パッケージ
+\usepackage{graphicx} % figure環境
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\usepackage{noto}
+\usepackage[T1]{fontenc} % 欧文フォント変えるときのおまじない
+
+
+\usepackage{listings}
+\renewcommand{\lstlistingname}{ソースコード}
+
+\lstset{
+    basicstyle={\ttfamily\gtfamily\scriptsize},
+    identifierstyle={},
+    commentstyle={},
+    keywordstyle={\bfseries},
+    ndkeywordstyle={},
+    stringstyle={\ttfamily},
+    frame={tb},
+    breaklines=true,
+    columns=[l]{fullflexible},
+    numbers=left,
+    numberstyle={\ttfamily\tiny},
+    stepnumber=1,
+    tabsize=4,
+    keywordstyle={},     %キーワード(int, ifなど)の書体指定
+    commentstyle={},  %注釈の書体
+    stringstyle={},        %文字列
+    showstringspaces=false,  %文字列中の半角スペースを表示させない
+    keepspaces=true,
+}
+
+
+\pagestyle{headings}
+
+% chapter
+\titleformat{\chapter}[block]
+{\bfseries\gtfamily\sffamily\Huge}
+{\Large 第\thechapter 章\\\Huge}{0pt}
+{}
+[\titlerule]
+
+\titlespacing*{\chapter}{0pt}{0em}{1.5em}[0pt] % 余白指定
+
+% section
+\titleformat{\section}[block]
+{\bfseries\gtfamily\sffamily\Large}
+{\thesection}{10pt}
+{}
+[\titlerule]
+
+% subsection
+\titleformat{\subsection}[block]
+{\bfseries\gtfamily\sffamily\large}
+{\thesubsection}{10pt}
+{}
+[\titlerule]
